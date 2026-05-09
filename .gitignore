@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# Data & Datasets (too large for git)
+data/
+*.hdf5
+*.h5
+*.csv
+
+# Model Weights & Checkpoints
+*.pth
+*.pt
+*.keras
+*.ckpt
+*.pkl
+outputs/*.h5
+outputs/*.pth
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+wandb/
+mlruns/
